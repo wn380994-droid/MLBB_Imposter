@@ -29,7 +29,7 @@ A PHP + MySQL (XAMPP) local web game for exactly 5 players.
 4. Import:
    `database/schema.sql`
 5. Check `config.php`:
-   - DB_HOST = `***.*.*.*`
+   - DB_HOST = `127.0.0.1`
    - DB_NAME = `mlbb_imposter`
    - DB_USER = `root`
    - DB_PASS = empty by default on XAMPP
@@ -45,3 +45,5 @@ For a production deployment, add authentication, CSRF protection, HTTPS, rate li
 ## Current data note
 
 The starter dataset is designed for the game mechanic, so hints are deliberately indirect rather than exact definitions. MLBB changes over time; update the seed data when hero/item/spell names or mechanics change.
+
+Test Of Git And Github
